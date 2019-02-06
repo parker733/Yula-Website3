@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,900i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Rakkas" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cormorant:300,400,400i,700,700i" rel="stylesheet">	
+	<link rel="stylesheet" type="text/css" href="css/style1.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+
+	<title>Yula | Book Cover Design</title>
+</head>
+<body>
+		<!--<div id="nav">
+			<div class="top-left">
+				<a class="logo Rakkas top" href="work_1.html">YULA YE</a>
+				<div "></div>
+			</div>
+			<div class="top-right">
+				<a class="nav-item" href="about.html">About</a>
+			</div>
+			<div class="bot-left">
+				<a class="nav-item" href="Archive.html">Archive</a>
+			</div>
+			<div class="bot-right">
+				<a class="nav-item" href="work_1.html">Fire Tongue</a>
+				<a class="nav-item" href="work_1.html">Xiangqi</a>
+				<a class="nav-item" href="work_1.html">Essentials</a>
+			</div>			
+			<br><br>
+		</div>-->
+		<div class="nav">
+			<div class="top-left">
+				<a class="logo Cormorant top" href="work_1.html" style="font-size: 32px; position: fixed; top:5%; left: 5%;">&#9674;</a>
+			</div>
+			<div class="top-right">
+				<a class="nav-item" href="fire_tongue.html">Fire Tongue</a>
+				<a class="nav-item" href="xiangqi.html">Chess</a>
+				<a class="nav-item" href="Craigslist_Campaign.html">Craigslist</a>
+				<a class="nav-item" href="book.html">Book Cover</a>
+			</div>
+			<div class="bot-left">
+				<a href="Archive.html">Archive</a>
+			</div>
+			<div class="bot-right" style="">
+				<a href="https://drive.google.com/file/d/1NIMU7nsrtBG3ZKn47Bgm4uG9B3qpCtLi/view" target="_blank">Yula Ye &nbsp; | &nbsp; Graphic Design</a>
+			</div>	
+		</div>
+		<div class="content">
+			<img src="img/Book_Cover/Links/01.jpg">
+			<img src="img/Book_Cover/Links/02.jpg">
+			<img src="img/Book_Cover/Links/03.jpg">
+			<img src="img/Book_Cover/Links/04.jpg">
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/anime.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.js"></script>
+
+	<script type="text/javascript">
+		
+		$( document ).ready(function() {
+			
+		    $(document).on('click', '.owl-item', function(event) { 
+		        if($(this).hasClass('active')) { // if #contattaci does NOT have class .selected
+		            const clickedElement = $(event.target);
+		            console.log(clickedElement[0].id);
+		            var id = clickedElement[0].id;
+		            if(id=="fire"){
+		            	location.href = 'work.html';
+		            }
+		            	
+		        }
+		    });
+
+		    var r = Math.floor(Math.random() * 3);
+		    $('#slider-area').owlCarousel({
+			loop: true,
+			autoplay: true,
+			nav:true,
+			startPosition: r,
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:1
+				},
+				1000:{
+					items:1
+				}
+			}
+		})
+		});
+	</script>
+
+
+</body>
+</html>

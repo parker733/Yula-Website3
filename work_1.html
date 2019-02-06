@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,900i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Rakkas" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cormorant:300,400,400i,700,700i" rel="stylesheet">	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+
+	<title>Yula</title>
+</head>
+<body>
+		<!--<div id="nav">
+			<div class="top-left">
+				<a class="logo Rakkas top" href="work_1.html">YULA YE</a>
+				<div "></div>
+			</div>
+			<div class="top-right">
+				<a class="nav-item" href="about.html">About</a>
+			</div>
+			<div class="bot-left">
+				<a class="nav-item" href="Archive.html">Archive</a>
+			</div>
+			<div class="bot-right">
+				<a class="nav-item" href="work_1.html">Fire Tongue</a>
+				<a class="nav-item" href="work_1.html">Xiangqi</a>
+				<a class="nav-item" href="work_1.html">Essentials</a>
+			</div>			
+			<br><br>
+		</div>-->
+		<div id="wrapper">
+			<div id="slider-area" class="owl-carousel">
+				<div id="fire" style="background-image: url(img/Fire_Tongue_Branding/Links/1.png)"></div>
+				<div id="xiangqi" style="background-image: url(img/Xiangqi_Book_Design/Links/01.jpg)"></div>
+				<div id="Craigslist" style="background-image: url(img/Craigslist_Campaign/Links/01.gif)"></div>
+				<div id="book" style="background-image: url(img/Book_Cover/Links/02.jpg)"></div>
+			</div>
+			<div id="nav-area">
+				<div class="top-left">
+				<a class="logo Cormorant top" href="work_1.html" style="font-size: 32px;">&#9674;</a>
+				<div></div>
+				</div>
+				<div class="top-right">
+					<a class="nav-item" href="fire_tongue.html">Fire Tongue</a>
+					<a class="nav-item" href="xiangqi.html">Xiangqi</a>
+					<a class="nav-item" href="Craigslist_Campaign.html">Craigslist</a>
+					<a class="nav-item" href="book.html">Book Cover</a>
+				</div>
+				<div class="bot-left">
+					<a href="Archive.html">Archive</a>
+				</div>
+				<div class="bot-right" style="">
+					<a href="https://drive.google.com/file/d/1NIMU7nsrtBG3ZKn47Bgm4uG9B3qpCtLi/view" target="_blank">Yula Ye &nbsp; | &nbsp; Graphic Design</a>
+				</div>		
+			</div>
+			<div id="slider-text">
+			</div>
+		</div>
+		<!--<div class="work">
+			<div class="reveal">type</div>
+			<div class="work-cell" id=es4>
+				<a><img src="img/mk1.jpg" alt="essentials"></a>
+			</div>
+			<div class="work-cell" id=es5>
+				<a><img src="img/mk2.jpg" alt="essentials"></a>
+			</div>
+			<div class="work-cell" id=es6>
+				<a><img src="img/mk3.jpg" alt="essentials"></a>
+			</div>
+			<div class="work-cell" id="">
+				<a><img src="img/fire_tongue/fire_tongue_1.jpg" alt="fire_tongue"></a>
+			</div>
+			<div class="work-cell" id="xq">
+				<a><img src="img/xiangqi/xiangqi_cover.jpg" alt="xiangqi"></a>
+			</div>
+			<div class="work-cell" id=es3>
+				<a><img src="img/essentials/essentials_cover2.jpg" alt="essentials"></a>
+			</div>
+			
+
+		</div>-->
+	</div>
+
+
+
+	<!--<script src="p5.min.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>-->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/anime.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.js"></script>
+
+	<script type="text/javascript">
+		
+		$( document ).ready(function() {
+		    $(document).on('click', '.owl-item', function(event) { 
+		        if($(this).hasClass('active')) { // if #contattaci does NOT have class .selected
+		            const clickedElement = $(event.target);
+		            console.log(clickedElement[0].id);
+		            var id = clickedElement[0].id;
+		            if(id=="fire"){
+		            	location.href = 'fire_tongue.html';
+		            }
+		            if(id=="xiangqi"){
+		            	location.href = 'xiangqi.html';
+		            }
+		            if(id=="Craigslist_Campaign"){
+		            	location.href = 'Craigslist_Campaign.html';
+		            }
+		            if(id=="book"){
+		            	location.href = 'book.html';
+		            }
+		            	
+		        }
+		    });
+
+		    var r = Math.floor(Math.random() * 4);
+		    $('#slider-area').owlCarousel({
+			loop: true,
+			autoplay: true,
+			nav:true,
+			autoplayTimeout: 3500,
+			stagePadding: 100,
+			startPosition: r,
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:1
+				},
+				1000:{
+					items:1
+				}
+			}
+		})
+		});
+	</script>
+
+
+</body>
+</html>
