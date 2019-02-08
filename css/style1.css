@@ -189,6 +189,10 @@ body{
     margin:8%;
 
 }
+#fire_content{
+    margin-top: 2%;
+}
+
 .content img{
 	margin-top: -20px;
 }
