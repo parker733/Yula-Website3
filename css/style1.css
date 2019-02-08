@@ -4,6 +4,7 @@ body{
     width: 100%;
     font-size: 18px;
     color: #A5A6AA;
+    margin: 0;
 }
 .logo{
     cursor: pointer;
@@ -27,9 +28,7 @@ a:hover{
     cursor: pointer;
 }
 body{
-    background-color: #141619;
-    color: white;
-    margin: 0;
+
 }
 
 .content img{
@@ -161,29 +160,30 @@ body{
 .top-left {
 	position: fixed;
     top:5%;
-    left: 5%;
+    left: 8%;
 
 }
 .top-right{
 	position: fixed;
     top:5%;
-    right: 5%
+    right: 8%
 
 }
 .bot-left{
 	position: fixed;
     bottom:5%;
-    left: 5%
+    left: 8%
 
 }
 .bot-right{
 	position: fixed;
     text-align: right;
     bottom:5%;
-    right: 5%
+    right: 8%
 
 }
-.cotent{
+.content{
+    margin:8%;
 
 }
 .content img{

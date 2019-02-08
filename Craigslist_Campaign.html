@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link href="https://fonts.googleapis.com/css?family=Cormorant:300,400,400i,700,700i" rel="stylesheet"><link rel="stylesheet" type="text/css" href="css/style1.css">
+	<link href="https://fonts.googleapis.com/css?family=Cormorant:300,400,400i,700,700i" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style1.css">	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
 
 	<title>Yula | Craigslist Campaign</title>
 </head>
 <body>
+		<script type="text/javascript" src="js/logic2.js"></script>
 		<!--<div id="nav">
 			<div class="top-left">
 				<a class="logo Rakkas top" href="work_1.html">YULA YE</a>
@@ -84,8 +87,9 @@
     <script src="p5.dom.min.js"></script>
     <script src="p5.sound.min.js"></script>-->
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 	<script type="text/javascript" src="js/owl.carousel.js"></script>
+
 
 	<script type="text/javascript">
 		
@@ -102,59 +106,6 @@
 		            	
 		        }
 		    });
-		    myMove();
-		    function myMove() {
-			  var elem = document.getElementById("animate"); 
-			  var pos = 0;
-			  var id = setInterval(frame, 5);
-			  function frame() {
-			    if (pos == 350) {
-			      clearInterval(id);
-			    } else {
-			      pos++; 
-			      elem.style.top = pos + 'px'; 
-			      elem.style.left = pos + 'px'; 
-			    }
-			  }
-			}
-		    var r = Math.floor(Math.random() * 3);
-		    $('#slider-area').owlCarousel({
-			loop: true,
-			autoplay: true,
-			nav:true,
-			startPosition: r,
-			responsive:{
-				0:{
-					items:1
-				},
-				600:{
-					items:1
-				},
-				1000:{
-					items:1
-				}
-			})
-			});
-			if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-					var r = Math.floor(Math.random() * 3);
-				    $('#slider-area').owlCarousel({
-					loop: true,
-					autoplay: true,
-					nav:true,
-					startPosition: r,
-					responsive:{
-						0:{
-							items:1
-						},
-						600:{
-							items:1
-						},
-						1000:{
-							items:1
-						}
-					}
-				});
-			}
 
 		});
 	</script>
