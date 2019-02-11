@@ -1,10 +1,9 @@
 body{
-    font-family: 'Cormorant', serif;
-    font-weight: 100;
+    font-family: "Helvetica Neue";
     width: 100%;
+    font-size: 14px;
     overflow-y: hidden;
-    font-size: 18px;
-    color: #A5A6AA;
+\    color: #A5A6AA;
 }
 .logo{
     cursor: pointer;
@@ -161,21 +160,21 @@ body{
     position: absolute;
     z-index: 10;
     top:5%;
-    left: 5%;
+    left: 8%;
 
 }
 #wrapper #nav-area .top-right{
     position: absolute;
     z-index: 10;
     top:5%;
-    right: 5%
+    right: 8%
 
 }
 #wrapper #nav-area .bot-left{
     position: absolute;
     z-index: 10;
     bottom:5%;
-    left: 5%
+    left: 8%
 
 }
 #wrapper #nav-area .bot-right{
@@ -183,7 +182,7 @@ body{
     position: absolute;
     z-index: 10;
     bottom:5%;
-    right: 5%
+    right: 8%
 
 }
 
