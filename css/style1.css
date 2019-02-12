@@ -19,6 +19,7 @@ body{
 }
 #mofa{
     z-index: 1000;
+    font-size: 16px;
 }
 /*work*/
 a{
@@ -31,6 +32,8 @@ body{
 .content{
     padding-left: 8%;
     padding-right: 8%;
+    text-align: center;
+
 }
 .content img{
 	width: 100%;
