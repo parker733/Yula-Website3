@@ -90,7 +90,7 @@
 			})
 			$('.book').click(function(){
 		  		$('.siema').empty();
-		  		$('.siema').append('<img src="img/Book_Cover/Links/01.jpg"><img src="img/Book_Cover/Links/02.jpg"><img src="img/Book_Cover/Links/03.jpg"><img src="img/Book_Cover/Links/04.jpg">');
+		  		$('.siema').append('<img src="img/Book_Cover/Links/01.jpg"><img src="img/Book_Cover/Links/03.jpg"><img src="img/Book_Cover/Links/04.jpg">');
 		  		$('#top-bar .col-8').css('background-color','#000000');
 				initSiema();
 			})
@@ -103,9 +103,13 @@
 			})
 		});
 		function initSiema(){
+
 			const mySiema = new Siema({
 			loop: true,
+			duration: 600,
+			startIndex: Math.floor(Math.random() * 4),
 		});
+		setInterval(() => mySiema.next(), 2300)
 		document.querySelector('.prev').addEventListener('click', () => mySiema.prev());
 		document.querySelector('.next').addEventListener('click', () => mySiema.next());
 		}
