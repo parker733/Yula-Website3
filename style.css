@@ -1,0 +1,117 @@
+body{
+	width: 100%;
+	padding: 0;
+	margin:0;
+	max-height: 100vh;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	text-align: center;
+	font-family: 'Oxygen', sans-serif !important;
+
+}
+
+a{
+	color: black !important;
+	text-align: center;
+
+}
+
+a:hover, a:active, a:link, a:visisted{
+	color: black !important;
+}
+div{ 
+	padding: 0 !important; 
+	margin: 0 !important; 
+
+}
+.container-fluid{
+	font-size: 20px;
+	width: 100%;
+	padding: 0 !important;
+	margin:0 !important;
+
+}
+img{
+	width: 100%;
+	height: 93vh;
+}
+#main{
+	height: 100vh;
+}
+.top-bar{
+	max-height: 5vh;
+	border-bottom: 1px solid black;
+}
+#footer{
+	max-height: 10vh;
+}
+#accordion div a{
+	min-height: 5vh;
+}
+#left{
+	border: 1px solid black;
+}
+#right{
+	border: 1px solid black;
+	border-left: 0px;
+}
+#accordion div{
+	border-bottom: 1px solid black;
+}
+#accordion:visited{
+	border-bottom: 0px;
+}
+#accordion div a{
+	padding-left: 10px;
+}
+.border-bot{
+	border-bottom: 1px solid black;
+}
+.siema{
+	border-bottom: 1px solid black !important;
+}
+#accordion div{
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+}
+#top-bar .col-8{
+	background-color: black;
+	color: white;
+}
+.center{
+	text-align: center;
+}
+.text{
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+button {     
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;        
+}
+#prev{
+	color:white;
+	font-size: 30px;
+	position: absolute;
+	top:48%;
+	left:5%;
+}
+
+#next{
+	color: white;
+	font-size: 30px;
+	position: absolute;
+	top: 48%;
+	right: 5%;
+
+}
+a p{
+	text-align: left;
+}
+p{
+	margin: 0 !important;
+}
