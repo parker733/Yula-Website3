@@ -13,11 +13,13 @@ body{
 a{
 	color: black !important;
 	text-align: center;
-
+	cursor: pointer;
+	text-decoration-style: none !important;
 }
 
 a:hover, a:active, a:link, a:visisted{
 	color: black !important;
+	text-decoration-style: none !important;
 }
 div{ 
 	padding: 0 !important; 
