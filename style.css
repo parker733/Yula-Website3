@@ -45,7 +45,6 @@ img{
 	width:auto;
 	height: 100vh;
 	position: relative;
-	color:black;
 
 }
 .top-bar{
@@ -107,18 +106,18 @@ button {
 }
 #prev{
 	color:white;
-	font-size: 30px;
+	font-size: 18px;
 	position: absolute;
 	top:48%;
-	left:5%;
+	left:3%;
 }
 
 #next{
 	color: white;
-	font-size: 30px;
+	font-size: 18px;
 	position: absolute;
 	top: 48%;
-	right: 5%;
+	right: 3%;
 
 }
 a p{
