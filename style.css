@@ -30,26 +30,20 @@ body {
 	font-weight: 600;	
 	 -ms-overflow-style: none;
 	overflow-y: hidden;
-<<<<<<< HEAD
 	
 	
 	
 	word-break: break-word;
 
 	-webkit-hyphens: auto;
-=======
 	text-align: center;
 	font-family: 'Karla', sans-serif !important;
-<<<<<<< HEAD
->>>>>>> parent of 8dfa5a7... edit 03/19
 
 	-moz-hyphens: auto;
 
 	-ms-hyphens: auto;
 
 	-o-hyphens: auto;
-=======
->>>>>>> parent of 8dfa5a7... edit 03/19
 
 	hyphens: auto;
 }
@@ -66,14 +60,13 @@ aside {
 article {
   flex: 1; /* occupe la largeur restante */
 }
-<<<<<<< HEAD
-=======
+
 .container-fluid{
 	font-size: 18px;
 	width: 100%;
 	padding: 0 !important;
 	margin:0 !important;
->>>>>>> parent of 8dfa5a7... edit 03/19
+}
 
 
 
@@ -175,14 +168,15 @@ td{
 	padding-top: 0%;
 	padding-bottom: 1%;
 }
-<<<<<<< HEAD
+
 
 /*.showme div:hover{
 	font-style: italic !important;
 }*/
 .showme div{
 	font-weight: normal;
-=======
+}
+
 #footer{
 	max-height: 10vh;
 }
@@ -197,7 +191,6 @@ td{
 }
 #accordion div a{
 	min-height: 5vh;
->>>>>>> parent of 8dfa5a7... edit 03/19
 }
 .collapse{
   display: block;
@@ -226,7 +219,6 @@ td{
 	
 }
 
-<<<<<<< HEAD
  ul li a {
   color: white;
   text-decoration: none;
@@ -234,14 +226,10 @@ td{
   display: block;
   width:100%;  
   height:100%;
-=======
+}
 #accordion div{
 	padding-top: 5px !important;
 	padding-bottom: 5px !important;
-<<<<<<< HEAD
->>>>>>> parent of 8dfa5a7... edit 03/19
-=======
->>>>>>> parent of 8dfa5a7... edit 03/19
 }
  ul li a:hover {
   background: black;
