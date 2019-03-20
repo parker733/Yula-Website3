@@ -176,24 +176,24 @@ var images_about = [];
 			}
 		
 		//---------------------------------------------------------------book--------------------------------------------------------------------------
-			$("#tallahassee").click(function(){
-				jQuery.get("textes/tallahassee1.txt", function(data) {
+			$("#book").click(function(){
+				jQuery.get("textes/book1.txt", function(data) {
 					document.getElementById("li").innerHTML = data;
 				});						
 				projectInitialisationStepOne();	
 				$(this).css('font-style', 'italic');				
 				projects_id_index = 21;					
-				project_slides = ['url("images/tallahassee/johanne_roten_tallahassee_F01.jpg")',
-								'url("images/tallahassee/johanne_roten_tallahassee_F02.jpg")',
-								'url("images/tallahassee/johanne_roten_tallahassee_F03.jpg")',
-								'url("images/tallahassee/johanne_roten_tallahassee_F04.jpg")'];
+				project_slides = ['url("images/book_Cover/Links/1.jpg")',
+								'url("images/book/johanne_roten_book_F02.jpg")',
+								'url("images/book/johanne_roten_book_F03.jpg")',
+								'url("images/book/johanne_roten_book_F04.jpg")'];
 				project_slides_titles = ['wrelfkntlkernfkln3rkln',
 										'poster detail, 895 x 1280 mm, blueback paper, offset',
 										'poster detail, 895 x 1280 mm, blueback paper, offset',
 										"poster, 895 x 1280 mm, blueback paper, offset"];
-				images_about = ['url("images/tallahassee/about/johanne_roten_tallahassee_S00.jpg")',
-								'url("images/tallahassee/about/johanne_roten_tallahassee_S01.jpg")',
-								'url("images/tallahassee/about/johanne_roten_tallahassee_S02.jpg")'];
+				images_about = ['url("images/book/about/johanne_roten_book_S00.jpg")',
+								'url("images/book/about/johanne_roten_book_S01.jpg")',
+								'url("images/book/about/johanne_roten_book_S02.jpg")'];
 				projectInitialisationStepTwo();
 			});		
 		//-----------------------------------------------------------------------------------------------------------------------------------------
@@ -1038,7 +1038,7 @@ var images_about = [];
 				
 			var n = 0;	
 			var interval = window.setInterval(slideshow, 5000);
-			var main_project_images = ['url("images/tallahassee/johanne_roten_tallahassee_SF")',
+			var main_project_images = ['url("images/book/johanne_roten_book_SF")',
 									'url("images/balades_dans_le_vignoble/johanne_roten_vignoble_SF.jpg")',
 									'url("images/black_list/johanne_roten_black_list_SF.jpg")',
 									'url("images/buffalo66/johanne_roten_buffalo66_SF.jpg")',

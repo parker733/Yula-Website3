@@ -2,17 +2,13 @@
 
 * {
   box-sizing: border-box; /* pour maîtriser width et flex-basis */
-  	cursor: url('images/cursor.png'), auto;	
-
 }
 
 html {
   display: flex; flex-direction: column; /* correction bug IE de min-height non appliqué à body */
+  
+}
 
-}
-*:hover{
-		cursor: url('images/cursor.png'), pointer !important;
-}
 body {
 	display: flex; /* crée un contexte flex pour ses enfants */
 	flex-direction: column; /* affichage vertical */
@@ -27,7 +23,7 @@ body {
 	-webkit-font-feature-settings:"liga", "kern";
 	font-feature-settings: "liga", "kern";
 	font-family: 'Graphik Web', Fallback, sans-serif;
-	font-weight: 600;	
+	//font-weight: 600;	
 	 -ms-overflow-style: none;
 	overflow-y: hidden;
 	
@@ -36,8 +32,6 @@ body {
 	word-break: break-word;
 
 	-webkit-hyphens: auto;
-	text-align: center;
-	font-family: 'Karla', sans-serif !important;
 
 	-moz-hyphens: auto;
 
@@ -59,13 +53,6 @@ aside {
 
 article {
   flex: 1; /* occupe la largeur restante */
-}
-
-.container-fluid{
-	font-size: 18px;
-	width: 100%;
-	padding: 0 !important;
-	margin:0 !important;
 }
 
 
@@ -169,30 +156,14 @@ td{
 	padding-bottom: 1%;
 }
 
-
 /*.showme div:hover{
 	font-style: italic !important;
 }*/
 .showme div{
 	font-weight: normal;
 }
-
-#footer{
-	max-height: 10vh;
-}
-#footer-p{
-	margin-top: 3px !important;
-}
-#footer{
-	max-height: 10vh;
-}
-#footer-p{
-	margin-top: 3px !important;
-}
-#accordion div a{
-	min-height: 5vh;
-}
 .collapse{
+  cursor: pointer;
   display: block;
 }
 .collapse + input{
@@ -226,10 +197,6 @@ td{
   display: block;
   width:100%;  
   height:100%;
-}
-#accordion div{
-	padding-top: 5px !important;
-	padding-bottom: 5px !important;
 }
  ul li a:hover {
   background: black;
