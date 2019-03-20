@@ -22,9 +22,10 @@ body {
 	-o-font-feature-settings:"liga", "kern";
 	-webkit-font-feature-settings:"liga", "kern";
 	font-feature-settings: "liga", "kern";
-	font-family: 'Graphik Web', Fallback, sans-serif;
-	//font-weight: 600;	
-	 -ms-overflow-style: none;
+	font-family: 'Heebo', sans-serif !important;
+	cursor:url(https://img.icons8.com/ios/50/000000/manga-filled.png), auto;
+}
+	-ms-overflow-style: none;
 	overflow-y: hidden;
 	
 	

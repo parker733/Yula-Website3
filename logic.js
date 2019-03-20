@@ -16,10 +16,10 @@ var images_about = [];
 		
 		
 			if($(window).width() > 850){
-				document.getElementById("left_header").innerHTML = "Yula Ye";
+				document.getElementById("left_header").innerHTML = "YULA YE";
 			}
 			else{
-				document.getElementById("left_header").innerHTML = "Yula Ye";
+				document.getElementById("left_header").innerHTML = "YULA YE";
 			}
 			
 			if(timer === 1){
