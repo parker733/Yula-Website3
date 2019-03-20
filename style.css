@@ -6,6 +6,8 @@
 
 html {
   display: flex; flex-direction: column; /* correction bug IE de min-height non appliqué à body */
+  cursor:url(https://img.icons8.com/ios/50/000000/manga-filled.png) 2 2, pointer;
+  cursor:url(https://img.icons8.com/ios/50/000000/manga-filled.png) 4 12, auto;
   
 }
 
@@ -23,9 +25,8 @@ body {
 	-webkit-font-feature-settings:"liga", "kern";
 	font-feature-settings: "liga", "kern";
 	font-family: 'Heebo', sans-serif !important;
-	cursor:url(https://img.icons8.com/ios/50/000000/manga-filled.png), auto;
-}
-	-ms-overflow-style: none;
+	
+	 -ms-overflow-style: none;
 	overflow-y: hidden;
 	
 	
