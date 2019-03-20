@@ -183,10 +183,10 @@ var images_about = [];
 				projectInitialisationStepOne();	
 				$(this).css('font-style', 'italic');				
 				projects_id_index = 21;					
-				project_slides = ['url("images/book_Cover/Links/1.jpg")',
-								'url("images/book/johanne_roten_book_F02.jpg")',
-								'url("images/book/johanne_roten_book_F03.jpg")',
-								'url("images/book/johanne_roten_book_F04.jpg")'];
+				project_slides = ['url("images/book_Cover/Links/01-1.jpg")',
+								'url("images/book_Cover/Links/01.jpg")',
+								'url("images/book_Cover/Links/02.jpg")',
+								'url("images/book_Cover/Links/01-1.jpg")'];
 				project_slides_titles = ['wrelfkntlkernfkln3rkln',
 										'poster detail, 895 x 1280 mm, blueback paper, offset',
 										'poster detail, 895 x 1280 mm, blueback paper, offset',
