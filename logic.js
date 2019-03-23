@@ -3,7 +3,7 @@ var images_about = [];
 		var project_slides_titles = [];
 		var project_size = 0;
 		var project_current_index = 0;
-		var projects_id = ["book", "xiangqi", "crag", "fire",
+		var projects_id = ["book", "xiangqi", "crag", "fluge", "fire",
 									"movingeye", "pepsi"];
 		var projects_id_index = 0;
 		var projects_id_size = projects_id.length;
@@ -161,8 +161,9 @@ var images_about = [];
 				$(".dropdown").click();
 			});
 			
+			$("#ul li #li").css("hyphens","none");
+			$("#ul li #li").css("font-size","25px");
 				
-		
 			function closeAbout(){
 				$('#ul').css('display', 'none');
 				$('#ul_jrs').css('display', 'none');
@@ -177,115 +178,132 @@ var images_about = [];
 		
 		//---------------------------------------------------------------book--------------------------------------------------------------------------
 			$("#book").click(function(){
-				jQuery.get("textes/book1.txt", function(data) {
+				jQuery.get("textes/about.txt", function(data) {
 					document.getElementById("li").innerHTML = data;
 				});						
 				projectInitialisationStepOne();	
 				$(this).css('font-style', 'italic');				
-				projects_id_index = 21;					
-				project_slides = ['url("images/book_Cover/Links/01-1.jpg")',
-								'url("images/book_Cover/Links/01.jpg")',
+				projects_id_index = 21;				
+				console.log("enter");	
+				project_slides = ['url("images/book_Cover/Links/01.jpg")',
 								'url("images/book_Cover/Links/02.jpg")',
-								'url("images/book_Cover/Links/01-1.jpg")'];
-				project_slides_titles = ['wrelfkntlkernfkln3rkln',
-										'poster detail, 895 x 1280 mm, blueback paper, offset',
-										'poster detail, 895 x 1280 mm, blueback paper, offset',
-										"poster, 895 x 1280 mm, blueback paper, offset"];
-				images_about = ['url("images/book/about/johanne_roten_book_S00.jpg")',
-								'url("images/book/about/johanne_roten_book_S01.jpg")',
-								'url("images/book/about/johanne_roten_book_S02.jpg")'];
+								'url("images/book_Cover/Links/03.jpg")',
+								'url("images/book_Cover/Links/04.jpg")'];
+				project_slides_titles = ['Book Cover Design',
+										'A SHELTER / Book Cover Design',
+										'ACTIVE RHYTHM / Book Cover Design',
+										"INFO / Book Cover Design"];
 				projectInitialisationStepTwo();
 			});		
 		//-----------------------------------------------------------------------------------------------------------------------------------------
 		
 		
 		
-		//---------------------------------------------------------------tristes_anthropiques--------------------------------------------------------------------------
-			$("#tristes_anthropiques").click(function(){
-				jQuery.get("textes/tristes_anthropiquesv1.txt", function(data) {
+		//---------------------------------------------------------------xiangqi--------------------------------------------------------------------------
+			$("#xiangqi").click(function(){
+				jQuery.get("textes/about.txt", function(data) {
 					document.getElementById("li").innerHTML = data;
 				});						
 				projectInitialisationStepOne();	
 				$(this).css('font-style', 'italic');				
-				projects_id_index = 20;					
-				project_slides = ['url("images/tristes_anthropiques/johanne_roten_tristes_anthropiques_F00.jpg")',
-								'url("images/tristes_anthropiques/johanne_roten_tristes_anthropiques_F01.jpg")',
-								'url("images/tristes_anthropiques/johanne_roten_tristes_anthropiques_F02.jpg")',
-								'url("images/tristes_anthropiques/johanne_roten_tristes_anthropiques_F03.jpg")',
-								'url("images/tristes_anthropiques/johanne_roten_tristes_anthropiques_F04.jpg")',
-								'url("images/tristes_anthropiques/johanne_roten_tristes_anthropiques_F05.jpg")'];
-				project_slides_titles = ['two sided flyer, 148 Ã— 210 mm, glossy paper, offset',
-										'opened flyer, 296 Ã— 210 mm, glossy paper, offset',
-										'artwork for the exhibition, vector illustrations, Lausanne Regular in use',
-										"two sided poster, 420 Ã— 594 mm, glossy paper, offset",
-										"research, vector illustrations, mountain and snake",
-										"view of the exhibition"];
-				images_about = ['url("images/tristes_anthropiques/about/johanne_roten_tristes_anthropiques_S00.jpg")',
-								'url("images/tristes_anthropiques/about/johanne_roten_tristes_anthropiques_S01.jpg")',
-								'url("images/tristes_anthropiques/about/johanne_roten_tristes_anthropiques_S02.jpg")'];
+				projects_id_index = 20;
+				console.log("enter");					
+				project_slides = ['url("images/Xiangqi_Book_Design/Links/01.jpg")',
+								'url("images/Xiangqi_Book_Design/Links/02.jpg")',
+								'url("images/Xiangqi_Book_Design/Links/03.gif")',
+								'url("images/Xiangqi_Book_Design/Links/04.jpg")',
+								'url("images/Xiangqi_Book_Design/Links/05.jpg")',
+								'url("images/Xiangqi_Book_Design/Links/06.jpg")',
+								'url("images/Xiangqi_Book_Design/Links/07.jpg")',
+								'url("images/Xiangqi_Book_Design/Links/08.jpg")',
+								'url("images/Xiangqi_Book_Design/Links/09.jpg")'];
+				project_slides_titles = ['The Lost Legacy: Chinese Chess / Book',
+										'The Lost Legacy: Chinese Chess / A Note to Readers',
+										'The Lost Legacy: Chinese Chess / Book Interior 01',
+										"The Lost Legacy: Chinese Chess / Book Interior 02",
+										"The Lost Legacy: Chinese Chess / Book Interior 03",
+										"The Lost Legacy: Chinese Chess / Envelope",
+										"The Lost Legacy: Chinese Chess / Chessboard and Pieces",
+										"The Lost Legacy: Chinese Chess / Chessboard in Detail",
+										"The Lost Legacy: Chinese Chess / Chess pieces in Detail"];
 				projectInitialisationStepTwo();
 			});		
 		//-----------------------------------------------------------------------------------------------------------------------------------------
 
-		//---------------------------------------------------------------hors_jeu--------------------------------------------------------------------------
-			$("#hors_jeu").click(function(){
-				jQuery.get("textes/hors_jeuv1.txt", function(data) {
+		//---------------------------------------------------------------crag--------------------------------------------------------------------------
+			$("#crag").click(function(){
+				jQuery.get("textes/about.txt", function(data) {
 					document.getElementById("li").innerHTML = data;
 				});
 				projectInitialisationStepOne();
 				$(this).css('font-style', 'italic');
 				projects_id_index = 3;
-				project_slides = ['url("images/hors_jeu/johanne_roten_horsjeu_F00.jpg")',
-								'url("images/hors_jeu/johanne_roten_horsjeu_F01.jpg")',
-								'url("images/hors_jeu/johanne_roten_horsjeu_F02.jpg")',
-								'url("images/hors_jeu/johanne_roten_horsjeu_F03.jpg")',
-								'url("images/hors_jeu/johanne_roten_horsjeu_F04.jpg")',
-								'url("images/hors_jeu/johanne_roten_horsjeu_F05.jpg")',
-								'url("images/hors_jeu/johanne_roten_horsjeu_F06.jpg")',
-								'url("images/hors_jeu/johanne_roten_horsjeu_F07.jpg")',
-								'url("images/hors_jeu/johanne_roten_horsjeu_F08.jpg")',
-								'url("images/hors_jeu/johanne_roten_horsjeu_F09.jpg")',
-								'url("images/hors_jeu/johanne_roten_horsjeu_F10.jpg")',
-								'url("images/hors_jeu/johanne_roten_horsjeu_F11.jpg")',
-								'url("images/hors_jeu/johanne_roten_horsjeu_F12.jpg")'];
-				project_slides_titles = ["catalog cover, 190 Ã— 255 mm, matt paper, digital print",
-										"series of photographs",
-										"photograph",
-										"catalog double pages, 380 Ã— 255 mm, matt paper, digital print",
-										"catalog double page, 380 Ã— 255 mm, matt paper, digital print",
-										"catalog double page, 380 Ã— 255 mm, matt paper, digital print",
-										"catalog double page, 380 Ã— 255 mm, matt paper, digital print",
-										"catalog double page, 380 Ã— 255 mm, matt paper, digital print",
-										"catalog double page, 380 Ã— 255 mm, matt paper, digital print",
-										"catalog double page, 380 Ã— 255 mm, matt paper, digital print",
-										"catalog double page, 380 Ã— 255 mm, matt paper, digital print",
-										"series of photographs",
-										"catalog double page, 380 Ã— 255 mm, matt paper, digital print"];
-				images_about = ['url("images/hors_jeu/about/johanne_roten_horsjeu_S00.jpg")',
-								'url("images/hors_jeu/about/johanne_roten_horsjeu_S01.jpg")',
-								'url("images/hors_jeu/about/johanne_roten_horsjeu_S02.jpg")'];
+				project_slides = ['url("images/Craigslist_Campaign/Links/01.gif")',
+								'url("images/Craigslist_Campaign/Links/02.gif")',
+								'url("images/Craigslist_Campaign/Links/03.gif")',
+								'url("images/Craigslist_Campaign/Links/04.gif")',
+								'url("images/Craigslist_Campaign/Links/05.gif")',
+								'url("images/Craigslist_Campaign/Links/06.jpg")',
+								'url("images/Craigslist_Campaign/Links/07.jpg")',];
+				project_slides_titles = ["Craigslist / Campaign",
+										"Craigslist / Info",
+										"Craigslist / Animated Poster",
+										"Craigslist / Instagram Story",
+										"Craigslist / Subway Ads",
+										"Craigslist / Building Ads",
+										"Craigslist / Campaign"];
+	
 				projectInitialisationStepTwo();
 			});		
 		//-----------------------------------------------------------------------------------------------------------------------------------------	
 								
 				
-		//--------------------------------------------------------------------supernova_martigny---------------------------------------------------------------------		
-			$("#supernova_martigny").click(function(){
-				jQuery.get("textes/supernova_martignyv1.txt", function(data) {
+		//--------------------------------------------------------------------fluge---------------------------------------------------------------------		
+			$("#fluge").click(function(){
+				jQuery.get("textes/about.txt", function(data) {
 					document.getElementById("li").innerHTML = data;
 				});			
 				projectInitialisationStepOne();
 				$(this).css('font-style', 'italic');
 				projects_id_index = 19;								
-				project_slides = ['url("images/supernova_martigny/johanne_roten_supernova_F00.jpg")',
-								'url("images/supernova_martigny/johanne_roten_supernova_F01.jpg")',
-								'url("images/supernova_martigny/johanne_roten_supernova_F02.jpg")'];
-				project_slides_titles = ['poster, 895 Ã— 1280 mm, yellow version, silkscreen',
-										'poster, 895 Ã— 1280 mm, fluo version, silkscreen',
-										'two sided flyer, 148 Ã— 210 mm, matt paper, digital print'];
-				images_about = ['url("images/supernova_martigny/about/johanne_roten_supernova_S00.jpg")',
-								'url("images/supernova_martigny/about/johanne_roten_supernova_S01.jpg")',
-								'url("images/supernova_martigny/about/johanne_roten_supernova_S02.jpg")'];
+				project_slides = ['url("images/Fluge/Links/01.jpg")',
+								'url("images/Fluge/Links/02.jpg")',
+								'url("images/Fluge/Links/03.jpg")',
+								'url("images/Fluge/Links/04.jpg")',
+								'url("images/Fluge/Links/05.jpg")',
+								'url("images/Fluge/Links/06.jpg")',
+								'url("images/Fluge/Links/07.jpg")',
+								'url("images/Fluge/Links/08.jpg")',
+								'url("images/Fluge/Links/09.jpg")',
+								'url("images/Fluge/Links/10.jpg")',
+								'url("images/Fluge/Links/11.jpg")',
+								'url("images/Fluge/Links/12.jpg")',
+								'url("images/Fluge/Links/13.jpg")',
+								'url("images/Fluge/Links/14.jpg")',
+								'url("images/Fluge/Links/15.jpg")',
+								'url("images/Fluge/Links/16.jpg")',
+								'url("images/Fluge/Links/17.jpg")',
+								'url("images/Fluge/Links/18.jpg")',
+								'url("images/Fluge/Links/19.jpg")',];
+				project_slides_titles = ['Flüge Collaboration / Branding / 01',
+										'Flüge Collaboration / Branding / 02',
+										'Flüge Collaboration / Branding / 03',
+										'Flüge Collaboration / Branding / 04',
+										'Flüge Collaboration / Branding / 05',
+										'Flüge Collaboration / Branding / 06',
+										'Flüge Collaboration / Branding / 07',
+										'Flüge Collaboration / Branding / 08',
+										'Flüge Collaboration / Branding / 09',
+										'Flüge Collaboration / Branding / 10',
+										'Flüge Collaboration / Branding / 11',
+										'Flüge Collaboration / Branding / 12',
+										'Flüge Collaboration / Branding / 13',
+										'Flüge Collaboration / Branding / 14',
+										'Flüge Collaboration / Branding / 15',
+										'Flüge Collaboration / Branding / 16',
+										'Flüge Collaboration / Branding / 17',
+										'Flüge Collaboration / Branding / 18',
+										'Flüge Collaboration / Branding / 19',];
 				projectInitialisationStepTwo();
 			});	
 		//-----------------------------------------------------------------------------------------------------------------------------------------
@@ -293,43 +311,34 @@ var images_about = [];
 				
 				
 				
-		//---------------------------------------------------------------black_list--------------------------------------------------------------------------
-			$("#black_list").click(function(){
-				jQuery.get("textes/black_listv1.txt", function(data) {
+		//---------------------------------------------------------------fire--------------------------------------------------------------------------
+			$("#fire").click(function(){
+				jQuery.get("textes/about.txt", function(data) {
 					document.getElementById("li").innerHTML = data;
 				});
 				projectInitialisationStepOne();
 				$(this).css('font-style', 'italic');
 				projects_id_index = 2;
-				project_slides = ['url("images/black_list/johanne_roten_black_list_F01.jpg")',
-								'url("images/black_list/johanne_roten_black_list_F02.jpg")',
-								'url("images/black_list/johanne_roten_black_list_F03.jpg")',
-								'url("images/black_list/johanne_roten_black_list_F04.jpg")',
-								'url("images/black_list/johanne_roten_black_list_F05.jpg")',
-								'url("images/black_list/johanne_roten_black_list_F06.jpg")',
-								'url("images/black_list/johanne_roten_black_list_F07.jpg")',
-								'url("images/black_list/johanne_roten_black_list_F08.jpg")',
-								'url("images/black_list/johanne_roten_black_list_F09.jpg")',
-								'url("images/black_list/johanne_roten_black_list_F10.jpg")',
-								'url("images/black_list/johanne_roten_black_list_F11.jpg")',
-								'url("images/black_list/johanne_roten_black_list_F12.jpg")',
-								'url("images/black_list/johanne_roten_black_list_F13.jpg")'];
-				project_slides_titles = ["vector illustrations",
-										"vector illustration",
-										"vector illustrations",
-										"vector illustrations",
-										"vector illustrations",
-										"vector illustration",
-										"vector illustrations",
-										"vector illustration",
-										"vector illustrations",
-										"vector illustrations",
-										"vector illustration",
-										"vector illustrations",
-										"vector illustration"];
-				images_about = ['url("images/black_list/about/johanne_roten_black_list_S00.jpg")',
-								'url("images/black_list/about/johanne_roten_black_list_S01.jpg")',
-								'url("images/black_list/about/johanne_roten_black_list_S02.jpg")'];
+				project_slides = ['url("images/Fire_Tongue_Branding/Links/01.jpg")',
+								'url("images/Fire_Tongue_Branding/Links/02.jpg")',
+								'url("images/Fire_Tongue_Branding/Links/03.jpg")',
+								'url("images/Fire_Tongue_Branding/Links/04.gif")',
+								'url("images/Fire_Tongue_Branding/Links/05.jpg")',
+								'url("images/Fire_Tongue_Branding/Links/06.jpg")',
+								'url("images/Fire_Tongue_Branding/Links/07.jpg")',
+								'url("images/Fire_Tongue_Branding/Links/08.jpg")',
+								'url("images/Fire_Tongue_Branding/Links/09.jpg")',
+								'url("videos/Fire_Tongue_Branding/Links/10.mp4")',];
+				project_slides_titles = ["Fire Tongue Reword Club / Identity Design",
+										"Fire Tongue Reword Club / Visual Concept 01",
+										"Fire Tongue Reword Club / Visual Concept 02",
+										"Fire Tongue Reword Club / Booklet",
+										"Fire Tongue Reword Club / Booklet Interior",
+										"Fire Tongue Reword Club / Invitation letter",
+										"Fire Tongue Reword Club / Business Card",
+										"Fire Tongue Reword Club / Map Poster",
+										"Fire Tongue Reword Club / Prints",
+										"Fire Tongue Reword Club / Experiencial Installation",];
 				projectInitialisationStepTwo();
 			});		
 		//-----------------------------------------------------------------------------------------------------------------------------------------
