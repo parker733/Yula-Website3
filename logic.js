@@ -3,7 +3,7 @@ var images_about = [];
 		var project_slides_titles = [];
 		var project_size = 0;
 		var project_current_index = 0;
-		var projects_id = ["book", "xiangqi", "crag", "fluge", "fire",
+		var projects_id = ["book", "xiangqi", "crag", "fluge", "fire", "eye",
 									"movingeye", "pepsi"];
 		var projects_id_index = 0;
 		var projects_id_size = projects_id.length;
@@ -178,7 +178,7 @@ var images_about = [];
 		
 		//---------------------------------------------------------------book--------------------------------------------------------------------------
 			$("#book").click(function(){
-				jQuery.get("textes/about.txt", function(data) {
+				jQuery.get("textes/bookcover.txt", function(data) {
 					document.getElementById("li").innerHTML = data;
 				});						
 				projectInitialisationStepOne();	
@@ -187,12 +187,10 @@ var images_about = [];
 				console.log("enter");	
 				project_slides = ['url("images/book_Cover/Links/01.jpg")',
 								'url("images/book_Cover/Links/02.jpg")',
-								'url("images/book_Cover/Links/03.jpg")',
-								'url("images/book_Cover/Links/04.jpg")'];
+								'url("images/book_Cover/Links/03.jpg")',];
 				project_slides_titles = ['Book Cover Design',
 										'A SHELTER / Book Cover Design',
-										'ACTIVE RHYTHM / Book Cover Design',
-										"INFO / Book Cover Design"];
+										'ACTIVE RHYTHM / Book Cover Design',];
 				projectInitialisationStepTwo();
 			});		
 		//-----------------------------------------------------------------------------------------------------------------------------------------
@@ -201,7 +199,7 @@ var images_about = [];
 		
 		//---------------------------------------------------------------xiangqi--------------------------------------------------------------------------
 			$("#xiangqi").click(function(){
-				jQuery.get("textes/about.txt", function(data) {
+				jQuery.get("textes/xiangqi.txt", function(data) {
 					document.getElementById("li").innerHTML = data;
 				});						
 				projectInitialisationStepOne();	
@@ -209,44 +207,38 @@ var images_about = [];
 				projects_id_index = 20;
 				console.log("enter");					
 				project_slides = ['url("images/Xiangqi_Book_Design/Links/01.jpg")',
-								'url("images/Xiangqi_Book_Design/Links/02.jpg")',
 								'url("images/Xiangqi_Book_Design/Links/03.gif")',
 								'url("images/Xiangqi_Book_Design/Links/04.jpg")',
 								'url("images/Xiangqi_Book_Design/Links/05.jpg")',
 								'url("images/Xiangqi_Book_Design/Links/06.jpg")',
 								'url("images/Xiangqi_Book_Design/Links/07.jpg")',
-								'url("images/Xiangqi_Book_Design/Links/08.jpg")',
-								'url("images/Xiangqi_Book_Design/Links/09.jpg")'];
+								'url("images/Xiangqi_Book_Design/Links/08.jpg")',];
 				project_slides_titles = ['The Lost Legacy: Chinese Chess / Book',
-										'The Lost Legacy: Chinese Chess / A Note to Readers',
 										'The Lost Legacy: Chinese Chess / Book Interior 01',
 										"The Lost Legacy: Chinese Chess / Book Interior 02",
 										"The Lost Legacy: Chinese Chess / Book Interior 03",
 										"The Lost Legacy: Chinese Chess / Envelope",
 										"The Lost Legacy: Chinese Chess / Chessboard and Pieces",
-										"The Lost Legacy: Chinese Chess / Chessboard in Detail",
-										"The Lost Legacy: Chinese Chess / Chess pieces in Detail"];
+										"The Lost Legacy: Chinese Chess / Chessboard in Detail",];
 				projectInitialisationStepTwo();
 			});		
 		//-----------------------------------------------------------------------------------------------------------------------------------------
 
 		//---------------------------------------------------------------crag--------------------------------------------------------------------------
 			$("#crag").click(function(){
-				jQuery.get("textes/about.txt", function(data) {
+				jQuery.get("textes/crag.txt", function(data) {
 					document.getElementById("li").innerHTML = data;
 				});
 				projectInitialisationStepOne();
 				$(this).css('font-style', 'italic');
 				projects_id_index = 3;
 				project_slides = ['url("images/Craigslist_Campaign/Links/01.gif")',
-								'url("images/Craigslist_Campaign/Links/02.gif")',
 								'url("images/Craigslist_Campaign/Links/03.gif")',
 								'url("images/Craigslist_Campaign/Links/04.gif")',
 								'url("images/Craigslist_Campaign/Links/05.gif")',
 								'url("images/Craigslist_Campaign/Links/06.jpg")',
 								'url("images/Craigslist_Campaign/Links/07.jpg")',];
 				project_slides_titles = ["Craigslist / Campaign",
-										"Craigslist / Info",
 										"Craigslist / Animated Poster",
 										"Craigslist / Instagram Story",
 										"Craigslist / Subway Ads",
@@ -313,7 +305,7 @@ var images_about = [];
 				
 		//---------------------------------------------------------------fire--------------------------------------------------------------------------
 			$("#fire").click(function(){
-				jQuery.get("textes/about.txt", function(data) {
+				jQuery.get("textes/fire.txt", function(data) {
 					document.getElementById("li").innerHTML = data;
 				});
 				projectInitialisationStepOne();
@@ -321,18 +313,23 @@ var images_about = [];
 				projects_id_index = 2;
 				project_slides = ['url("images/Fire_Tongue_Branding/Links/01.jpg")',
 								'url("images/Fire_Tongue_Branding/Links/02.jpg")',
-								'url("images/Fire_Tongue_Branding/Links/03.jpg")',
-								'url("images/Fire_Tongue_Branding/Links/04.gif")',
+								'url("images/Fire_Tongue_Branding/Links/03.gif")',
+								'url("images/Fire_Tongue_Branding/Links/04.jpg")',
 								'url("images/Fire_Tongue_Branding/Links/05.jpg")',
 								'url("images/Fire_Tongue_Branding/Links/06.jpg")',
 								'url("images/Fire_Tongue_Branding/Links/07.jpg")',
 								'url("images/Fire_Tongue_Branding/Links/08.jpg")',
 								'url("images/Fire_Tongue_Branding/Links/09.jpg")',
-								'url("videos/Fire_Tongue_Branding/Links/10.mp4")',];
+								'url("images/Fire_Tongue_Branding/Links/10.jpg")',
+								'url("images/Fire_Tongue_Branding/Links/11.jpg")',
+								'url("videos/Fire_Tongue_Branding/Links/12.mp4")',];
 				project_slides_titles = ["Fire Tongue Reword Club / Identity Design",
-										"Fire Tongue Reword Club / Visual Concept 01",
-										"Fire Tongue Reword Club / Visual Concept 02",
+										"Fire Tongue Reword Club / Visual Concept",
 										"Fire Tongue Reword Club / Booklet",
+										"Fire Tongue Reword Club / Booklet Interior 01",
+										"Fire Tongue Reword Club / Booklet Interior 02",
+										"Fire Tongue Reword Club / Booklet Interior 03",
+										"Fire Tongue Reword Club / Booklet Interior 04",
 										"Fire Tongue Reword Club / Booklet Interior",
 										"Fire Tongue Reword Club / Invitation letter",
 										"Fire Tongue Reword Club / Business Card",
@@ -345,25 +342,48 @@ var images_about = [];
 
 		
 		
-		//---------------------------------------------------------------buffalo_66--------------------------------------------------------------------------
-			$("#buffalo_66").click(function(){
-				jQuery.get("textes/buffalo_66v3.txt", function(data) {
+		//---------------------------------------------------------------eye--------------------------------------------------------------------------
+			$("#eye").click(function(){
+				jQuery.get("textes/eye.txt", function(data) {
 					document.getElementById("li").innerHTML = data;
 				});
 				projectInitialisationStepOne();
 				$(this).css('font-style', 'italic');
 				projects_id_index = 1;
-				project_slides = ['url("images/buffalo66/johanne_roten_buffalo66_F00.jpg")',
-								'url("images/buffalo66/johanne_roten_buffalo66_F01.jpg")',
-								'url("images/buffalo66/johanne_roten_buffalo66_F02.jpg")',
-								'url("images/buffalo66/johanne_roten_buffalo66_F03.jpg")'];
-				project_slides_titles = ["poster, 420 Ã— 594 mm, matt paper, digital print",
-										"poster detail, 420 Ã— 594 mm, matt paper, digital print",
-										"poster detail, 420 Ã— 594 mm, matt paper, digital print",
-										"poster detail, 420 Ã— 594 mm, matt paper, digital print"];
-				images_about = ['url("images/buffalo66/about/johanne_roten_buffalo66_S00.jpg")',
-								'url("images/buffalo66/about/johanne_roten_buffalo66_S01.jpg")',
-								'url("images/buffalo66/about/johanne_roten_buffalo66_S02.jpg")'];
+				project_slides = ['url("images/Moving_Eye/Links/01.jpg")',
+								'url("images/Moving_Eye/Links/02.jpg")',
+								'url("images/Moving_Eye/Links/03.gif")',
+								'url("images/Moving_Eye/Links/04.gif")',
+								'url("images/Moving_Eye/Links/05.jpg")',
+								'url("images/Moving_Eye/Links/06.jpg")',
+								'url("images/Moving_Eye/Links/07.jpg")',
+								'url("images/Moving_Eye/Links/08.jpg")',
+								'url("images/Moving_Eye/Links/09.jpg")',
+								'url("images/Moving_Eye/Links/10.gif")',
+								'url("images/Moving_Eye/Links/11.gif")',
+								'url("images/Moving_Eye/Links/12.gif")',
+								'url("images/Moving_Eye/Links/13.jpg")',
+								'url("images/Moving_Eye/Links/14.gif")',
+								'url("images/Moving_Eye/Links/15.gif")',
+								'url("images/Moving_Eye/Links/16.gif")',
+								'url("images/Moving_Eye/Links/17.gif")'];
+				project_slides_titles = ["Moving Eye Exhibition / Title Page",
+										"Moving Eye Exhibition / Verbal Concept",
+										"Moving Eye Exhibition / Sample Artworks",
+										"Moving Eye Exhibition / Visual Concept",
+										"Moving Eye Exhibition / Ticket 01",
+										"Moving Eye Exhibition / Ticket 02",
+										"Moving Eye Exhibition / Ticket 03",
+										"Moving Eye Exhibition / Visitor ID Card",
+										"Moving Eye Exhibition / Augmented Glasses",
+										"Moving Eye Exhibition / Poster Series",
+										"Moving Eye Exhibition / Exhibition",
+										"Moving Eye Exhibition / Exhibition Title Wall",
+										"Moving Eye Exhibition / Exhibition Interior",
+										"Moving Eye Exhibition / Instagram Ads",
+										"Moving Eye Exhibition / Subway Ads",
+										"Moving Eye Exhibition / Web Intro Page",
+										"Moving Eye Exhibition / Web Main Page"];
 				projectInitialisationStepTwo();
 			});		
 		//-----------------------------------------------------------------------------------------------------------------------------------------
@@ -371,25 +391,35 @@ var images_about = [];
 				
 				
 				
-		//---------------------------------------------------------------memory--------------------------------------------------------------------------
-			$("#memory").click(function(){
-				jQuery.get("textes/memoryv1.txt", function(data) {
+		//---------------------------------------------------------------pepsi--------------------------------------------------------------------------
+			$("#pepsi").click(function(){
+				jQuery.get("textes/pepsi.txt", function(data) {
 					document.getElementById("li").innerHTML = data;
 				});
 				projectInitialisationStepOne();
 				$(this).css('font-style', 'italic');
 				projects_id_index = 8;
-				project_slides = ['url("images/memory/johanne_roten_memory_F00.jpg")',
-								'url("images/memory/johanne_roten_memory_F01.jpg")',
-								'url("images/memory/johanne_roten_memory_F02.jpg")',
-								'url("images/memory/johanne_roten_memory_F03.jpg")'];
-				project_slides_titles = ["coaster series, vector illustrations, cardboard, offset",
-										"coaster series, vector illustrations, cardboard, offset",
-										"coaster series, vector illustrations, cardboard, offset",
-										"coaster series, vector illustrations, cardboard, offset"];
-				images_about = ['url("images/memory/about/johanne_roten_memory_S00.jpg")',
-								'url("images/memory/about/johanne_roten_memory_S01.jpg")',
-								'url("images/memory/about/johanne_roten_memory_S02.jpg")'];
+				project_slides = ['url("images/Pepsi_Seeing_The_World/Links/01.jpg")',
+								'url("images/Pepsi_Seeing_The_World/Links/02.jpg")',
+								'url("images/Pepsi_Seeing_The_World/Links/03.jpg")',
+								'url("images/Pepsi_Seeing_The_World/Links/04.jpg")',
+								'url("images/Pepsi_Seeing_The_World/Links/05.jpg")',
+								'url("images/Pepsi_Seeing_The_World/Links/06.gif")',
+								'url("images/Pepsi_Seeing_The_World/Links/07.jpg")',
+								'url("images/Pepsi_Seeing_The_World/Links/08.jpg")',
+								'url("images/Pepsi_Seeing_The_World/Links/09.jpg")',
+								'url("images/Pepsi_Seeing_The_World/Links/10.jpg")'];
+				project_slides_titles = ["Pepsi Seeing the World / Social Media Campaign",
+										"Pepsi Seeing the World / Social Media Campaign",
+										"Pepsi Seeing the World / Social Media Campaign",
+										"Pepsi Seeing the World / Social Media Campaign",
+										"Pepsi Seeing the World / Social Media Campaign",
+										"Pepsi Seeing the World / Social Media Campaign",
+										"Pepsi Seeing the World / Social Media Campaign",
+										"Pepsi Seeing the World / Social Media Campaign",
+										"Pepsi Seeing the World / Social Media Campaign",
+										"Pepsi Seeing the World / Social Media Campaign"];
+			
 				projectInitialisationStepTwo();
 			});		
 		//-----------------------------------------------------------------------------------------------------------------------------------------
@@ -500,7 +530,7 @@ var images_about = [];
 				projectInitialisationStepOne();
 				$(this).css('font-style', 'italic');
 				projects_id_index = 5;
-				project_slides = ['url("images/remind_me_to_forget/johanne_roten_remindmetoforget_F00.jpg")',
+				project_slides = ['url("images/remind_me_to_forget/01.jpg")',
 								'url("images/remind_me_to_forget/johanne_roten_remindmetoforget_F01.jpg")',
 								'url("images/remind_me_to_forget/johanne_roten_remindmetoforget_F03.jpg")',
 								'url("images/remind_me_to_forget/johanne_roten_remindmetoforget_F04.jpg")',
