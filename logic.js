@@ -185,9 +185,9 @@ var images_about = [];
 				$(this).css('font-style', 'italic');				
 				projects_id_index = 21;				
 				console.log("enter");	
-				project_slides = ['url("images/book_Cover/Links/01.jpg")',
-								'url("images/book_Cover/Links/02.jpg")',
-								'url("images/book_Cover/Links/03.jpg")',];
+				project_slides = ['url("images/Book_Cover/Links/01.jpg")',
+								'url("images/Book_Cover/Links/02.jpg")',
+								'url("images/Book_Cover/Links/03.jpg")',];
 				project_slides_titles = ['Book Cover Design',
 										'A SHELTER / Book Cover Design',
 										'ACTIVE RHYTHM / Book Cover Design',];
