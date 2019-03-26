@@ -76,6 +76,7 @@ article {
   body{
 	font-size:3vw;
   }
+
 }
 
 /* Decoration */
@@ -134,7 +135,7 @@ i {
   font-size: 18px;
   position: absolute;
   top:48%;
-  left:3%;
+  left:1%;
 }
 
 #next_slider {
@@ -142,7 +143,7 @@ i {
   font-size: 18px;
   position: absolute;
   top: 48%;
-  right: 28%;
+  right: 26%;
 }
 
 footer {
