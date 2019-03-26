@@ -113,13 +113,38 @@ article {
   min-height:250px;
 }
 #slider{
-	background-image: url("../images/remind_me_to_forget/johanne_roten_remindmetoforget_SF.jpg");
+	background-image: url("images/WEB_MAIN.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position:50% 50%;
 	display: inline-block;
 	flex:1;
 }
+
+i {
+  border: white;
+  display: inline-block;
+  position:absolute;
+  color:white;
+  font-size:20px;
+}
+
+#prev_slider {
+  color:white;
+  font-size: 18px;
+  position: absolute;
+  top:48%;
+  left:3%;
+}
+
+#next_slider {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 48%;
+  right: 28%;
+}
+
 footer {
   background: white;
   border-top: 1px solid black;
