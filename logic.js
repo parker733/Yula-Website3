@@ -3,8 +3,14 @@ var images_about = [];
 		var project_slides_titles = [];
 		var project_size = 0;
 		var project_current_index = 0;
-		var projects_id = ["book", "xiangqi", "crag", "fluge", "fire", "eye",
-									"movingeye", "pepsi"];
+		var projects_id = ["book", 
+							"xiangqi", 
+							"crag", 
+							"fluge", 
+							"fire", 
+							"eye",
+							"movingeye", 
+							"pepsi"];
 		var projects_id_index = 0;
 		var projects_id_size = projects_id.length;
 		var timer = 1;
@@ -220,6 +226,9 @@ var images_about = [];
 										"The Lost Legacy: Chinese Chess / Envelope",
 										"The Lost Legacy: Chinese Chess / Chessboard and Pieces",
 										"The Lost Legacy: Chinese Chess / Chessboard in Detail",];
+				images_about = ['url("images/Xiangqi_Book_Design/Links/01.jpg")',
+								'url("images/Xiangqi_Book_Design/Links/06.jpg")',
+								'url("images/Xiangqi_Book_Design/Links/01.jpg")'];
 				projectInitialisationStepTwo();
 			});		
 		//-----------------------------------------------------------------------------------------------------------------------------------------
@@ -530,7 +539,7 @@ var images_about = [];
 				projectInitialisationStepOne();
 				$(this).css('font-style', 'italic');
 				projects_id_index = 5;
-				project_slides = ['url("images/remind_me_to_forget/01.jpg")',
+				project_slides = ['url("images/remind_me_to_forget/Links/01.jpg")',
 								'url("images/remind_me_to_forget/johanne_roten_remindmetoforget_F01.jpg")',
 								'url("images/remind_me_to_forget/johanne_roten_remindmetoforget_F03.jpg")',
 								'url("images/remind_me_to_forget/johanne_roten_remindmetoforget_F04.jpg")',
@@ -965,9 +974,9 @@ var images_about = [];
 										"exhibition catalog, book 2 double page, 280 Ã— 210 mm",
 										"exhibition catalog, book 2 double page, 280 Ã— 210 mm",
 										"poster series, 895 Ã— 1980 mm, blueback paper, silkscreen"];
-				images_about = ['url("images/triennale/about/johanne_roten_T17_S00.jpg")',
-								'url("images/triennale/about/johanne_roten_T17_S01.jpg")',
-								'url("images/triennale/about/johanne_roten_T17_S02.jpg")'];
+				images_about = ['url("images/triennale/johanne_roten_T17_F00.jpg")',
+								'url("images/triennale/johanne_roten_T17_F01.jpg")',
+								'url("images/triennale/johanne_roten_T17_F02.jpg")'];
 				projectInitialisationStepTwo();
 			});		
 		//--------------------------------------------------------------------------------------------------------------------
@@ -1076,27 +1085,15 @@ var images_about = [];
 				
 				
 			var n = 0;	
-			var interval = window.setInterval(slideshow, 5000);
-			var main_project_images = ['url("images/book/johanne_roten_book_SF")',
-									'url("images/balades_dans_le_vignoble/johanne_roten_vignoble_SF.jpg")',
-									'url("images/black_list/johanne_roten_black_list_SF.jpg")',
-									'url("images/buffalo66/johanne_roten_buffalo66_SF.jpg")',
-									'url("images/cause_effet/johanne_roten_causeeffet_SF.jpg")',
-									'url("images/dada/johanne_roten_dada_SF.jpg")',
-									'url("images/dakar_martigny/johanne_roten_dakar_SF.jpg")',
-									'url("images/especes_dimages/johanne_roten_especes_images_SF.jpg")',
-									'url("images/estivale_open_air_festival/johanne_roten_estivale_openair_SF.jpg")',
-									'url("images/fri_son/johanne_roten_frison_SF.jpg")',
-									'url("images/hors_jeu/johanne_roten_horsjeu_SF.jpg")',
-									'url("images/le_fanzine/johanne_roten_fanzine_SF.jpg")',
-									'url("images/memory/johanne_roten_memory_SF.jpg")',
-									'url("images/primo/johanne_roten_primo_SF.jpg")',
-									'url("images/seiler_schmidt/johanne_roten_seiler_schmidt_SF.jpg")',
-									'url("images/supernova_martigny/johanne_roten_supernova_SF.jpg")',
-									'url("images/th_big_picture/johanne_roten_big_picture_SF.jpg")',
-									'url("images/totally_drunk/johanne_roten_totallydrunk_SF.jpg")',
-									'url("images/tristes_anthropiques/johanne_roten_tristes_anthropiques_SF.jpg")',
-									'url("images/triennale/johanne_roten_T17_SF00.jpg")'];
+			var interval = window.setInterval(slideshow, 3000);
+			var main_project_images = ['url("images/WEB_MAIN.jpg")',
+								'url("images/Book_Cover/Links/01.jpg")',
+								'url("images/Xiangqi_Book_Design/Links/07.jpg")',
+								'url("images/Craigslist_Campaign/Links/03.gif")',
+								'url("images/WEB_MAIN.jpg")',
+								'url("images/Fire_Tongue_Branding/Links/08.jpg")',
+								'url("images/Moving_Eye/Links/12.gif")',
+								'url("images/Pepsi_Seeing_The_World/Links/10.jpg")',];
 			var nbrImages = main_project_images.length;
 			
 			
