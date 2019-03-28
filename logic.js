@@ -261,7 +261,7 @@ var images_about = [];
 				
 		//--------------------------------------------------------------------fluge---------------------------------------------------------------------		
 			$("#fluge").click(function(){
-				jQuery.get("textes/about.txt", function(data) {
+				jQuery.get("textes/flug.txt", function(data) {
 					document.getElementById("li").innerHTML = data;
 				});			
 				projectInitialisationStepOne();
@@ -281,11 +281,7 @@ var images_about = [];
 								'url("images/Fluge/Links/12.jpg")',
 								'url("images/Fluge/Links/13.jpg")',
 								'url("images/Fluge/Links/14.jpg")',
-								'url("images/Fluge/Links/15.jpg")',
-								'url("images/Fluge/Links/16.jpg")',
-								'url("images/Fluge/Links/17.jpg")',
-								'url("images/Fluge/Links/18.jpg")',
-								'url("images/Fluge/Links/19.jpg")',];
+								'url("images/Fluge/Links/15.jpg")',];
 				project_slides_titles = ['Flüge Collaboration / Branding / 01',
 										'Flüge Collaboration / Branding / 02',
 										'Flüge Collaboration / Branding / 03',
@@ -300,11 +296,7 @@ var images_about = [];
 										'Flüge Collaboration / Branding / 12',
 										'Flüge Collaboration / Branding / 13',
 										'Flüge Collaboration / Branding / 14',
-										'Flüge Collaboration / Branding / 15',
-										'Flüge Collaboration / Branding / 16',
-										'Flüge Collaboration / Branding / 17',
-										'Flüge Collaboration / Branding / 18',
-										'Flüge Collaboration / Branding / 19',];
+										'Flüge Collaboration / Branding / 15',];
 				projectInitialisationStepTwo();
 			});	
 		//-----------------------------------------------------------------------------------------------------------------------------------------
@@ -537,15 +529,15 @@ var images_about = [];
 				
 				
 			var n = 0;	
-			var interval = window.setInterval(slideshow, 3000);
+			var interval = window.setInterval(slideshow, 4000);
 			var main_project_images = ['url("images/WEB_MAIN.jpg")',
 								'url("images/Book_Cover/Links/01.jpg")',
 								'url("images/Xiangqi_Book_Design/Links/07.jpg")',
+								'url("images/Fluge/Links/11.jpg")',
+								'url("images/Pepsi_Seeing_The_World/Links/10.jpg")',
 								'url("images/Craigslist_Campaign/Links/03.gif")',
-								'url("images/WEB_MAIN.jpg")',
-								'url("images/Fire_Tongue_Branding/Links/08.jpg")',
 								'url("images/Moving_Eye/Links/12.gif")',
-								'url("images/Pepsi_Seeing_The_World/Links/10.jpg")',];
+								'url("images/Fire_Tongue_Branding/Links/08.jpg")',];
 			var nbrImages = main_project_images.length;
 			
 			
