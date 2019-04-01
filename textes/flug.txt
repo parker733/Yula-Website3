@@ -1,4 +1,18 @@
 ABOUT -
 <br/>
-<br/>Flüge is an application design collaborated by RIMOWA and STAR ALLIANCE. It is the first all-in-one digital smart boarding system. Flüge aims to make your travel experience simplier than ever. 
+<br/>Flüge is a noun. It means flights. It is the first all-in-one digital boarding system collaborated by RIMOWA  and Star Alliance. Flüge is designed to simpify your airport experience, intruduce you to the future of travel.
 <br/>
+<br/>FEATURE -
+<br/>
+<br/>
+In the form of a friendly letter, you can receive your boarding pass with scannable QR code, as well as the latest flight information. 
+<br/>
+In My Luggage, you can connect your RIMOWA luggage bags with the app and check-in digitally. This feature helps you to drop off within seconds.
+<br/>
+In My Flights, you can easily find your flight across the whole Star Alliance network.
+<br/>
+Using the AR technology, Airport Guide can pinpoint the route to check-in, gates, lounges and restrooms.
+<br/>
+AvenirNEXT is the official primary typeface. 
+It supports 133 languages, ensure that the digital boarding system is globalized.
+
