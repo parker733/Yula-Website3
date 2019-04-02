@@ -5,14 +5,17 @@ CONCEPT -
 <br/>FEATURE -
 <br/>
 <br/>
-In the form of a friendly letter, you can receive your boarding pass with scannable QR code, as well as the latest flight information. 
+In the form of a friendly letter, you will receive the boarding pass w the latest flight information. 
 <br/>
-In My Luggage, you can connect your RIMOWA luggage bags with the app and check-in digitally. This feature helps you to drop off within seconds.
+In ‘My Luggage’, you can connect your RIMOWA luggage bags with the app and check-in digitally. This feature helps you to drop off within seconds.
 <br/>
-In My Flights, you can easily find your flight across the whole Star Alliance network.
+In ‘My Flights’, you will be able to find your flight across the whole Star Alliance network.
 <br/>
-Using the AR technology, Airport Guide can pinpoint the route to check-in, gates, lounges and restrooms.
+Using the AR technology, Airport Guide can pinpoint the route to check-in, gates, lounges, and lavatories.
+<br/>
+<br/>TYPEFACE -
+<br/>
 <br/>
 AvenirNEXT is the official primary typeface. 
-It supports 133 languages, ensure that the digital boarding system is globalized.
+It supports 133 languages, ensures that the digital boarding system is globalized.
 
