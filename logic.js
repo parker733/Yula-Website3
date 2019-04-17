@@ -361,7 +361,7 @@ var images_about = [];
 								'url("images/Moving_Eye/Links/08.gif")',
 								'url("images/Moving_Eye/Links/09.gif")',
 								'url("images/Moving_Eye/Links/10.gif")',
-								'url("images/Moving_Eye/Links/11.gif")',];
+								'url("images/Moving_Eye/Links/11.gif")'];
 				project_slides_titles = ["Moving Eye Exhibition / Title Page",
 										"Moving Eye Exhibition / Verbal Concept",
 										"Moving Eye Exhibition / Sample Artworks",
