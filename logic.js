@@ -361,7 +361,7 @@ var images_about = [];
 								'url("images/Moving_Eye/Links/08.gif")',
 								'url("images/Moving_Eye/Links/09.gif")',
 								'url("images/Moving_Eye/Links/10.gif")',
-								'url("images/Moving_Eye/Links/12.gif")',];
+								'url("images/Moving_Eye/Links/11.gif")',];
 				project_slides_titles = ["Moving Eye Exhibition / Title Page",
 										"Moving Eye Exhibition / Verbal Concept",
 										"Moving Eye Exhibition / Sample Artworks",
@@ -524,7 +524,7 @@ var images_about = [];
 								'url("images/Fluge/Links/11.jpg")',
 								'url("images/Pepsi_Seeing_The_World/Links/10.jpg")',
 								'url("images/Craigslist_Campaign/Links/03.gif")',
-								'url("images/Moving_Eye/Links/12.gif")',
+								'url("images/Moving_Eye/Links/11.gif")',
 								'url("images/Fire_Tongue_Branding/Links/08.jpg")',];
 			var nbrImages = main_project_images.length;
 			
