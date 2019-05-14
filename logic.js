@@ -413,6 +413,37 @@ var images_about = [];
 			});		
 		//-----------------------------------------------------------------------------------------------------------------------------------------
 		
+		$("#pepsi").click(function(){
+				jQuery.get("textes/pepsi.txt", function(data) {
+					document.getElementById("li").innerHTML = data;
+				});
+				projectInitialisationStepOne();
+				$(this).css('font-style', 'italic');
+				projects_id_index = 8;
+				project_slides = ['url("images/Pepsi_Seeing_The_World/Links/01.jpg")',
+								'url("images/Pepsi_Seeing_The_World/Links/02.jpg")',
+								'url("images/Pepsi_Seeing_The_World/Links/03.jpg")',
+								'url("images/Pepsi_Seeing_The_World/Links/04.jpg")',
+								'url("images/Pepsi_Seeing_The_World/Links/05.jpg")',
+								'url("images/Pepsi_Seeing_The_World/Links/06.gif")',
+								'url("images/Pepsi_Seeing_The_World/Links/07.jpg")',
+								'url("images/Pepsi_Seeing_The_World/Links/08.jpg")',
+								'url("images/Pepsi_Seeing_The_World/Links/09.jpg")',
+								'url("images/Pepsi_Seeing_The_World/Links/10.jpg")'];
+				project_slides_titles = ["Pepsi Seeing the World / Social Media Campaign",
+										"Pepsi Seeing the World / Social Media Campaign",
+										"Pepsi Seeing the World / Social Media Campaign",
+										"Pepsi Seeing the World / Social Media Campaign",
+										"Pepsi Seeing the World / Social Media Campaign",
+										"Pepsi Seeing the World / Social Media Campaign",
+										"Pepsi Seeing the World / Social Media Campaign",
+										"Pepsi Seeing the World / Social Media Campaign",
+										"Pepsi Seeing the World / Social Media Campaign",
+										"Pepsi Seeing the World / Social Media Campaign"];
+			
+				projectInitialisationStepTwo();
+			});		
+		//-----------------------------------------------------------------------------------------------------------------------------------------
 		
 		
 			function projectInitialisationStepOne(){
